@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Timer</title>
+    <link rel="shortcut icon" href="CSS/image/tomatoFavicon.ico" />
+    <link rel="icon" href="CSS/image/tomatoFavicon.ico" />
+
+    <link href="CSS/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section id="timerPage">
+      <div id="focus"></div>
+      <div id="time"></div>
+      <div id="progressBar">
+        <div id="barStatus"></div>
+      </div>
+      <div id="playBtn" data-action="playBtn"></div>
+      <div id="stopBtn" class="hide" data-action="stopBtn"></div>
+      <div id="refreshBtn" class="hide" data-action="refreshBtn"></div>
+    </section>
+
+    <div id="middleTodo">👇 Todo List</div>
+
+    <section id="todoPage">
+      <div id="todoInput">
+        <form>
+          <input
+            type="text"
+            class="inputTodo"
+            placeholder="Write your to do list"
+          />
+          <input type="submit" data-action="addTodo" value="" />
+        </form>
+      </div>
+      <div id="todoList"></div>
+      <div id="todoListFinished"></div>
+    </section>
+
+    <div id="mySidenav" class="sidenav">
+      <span class="closebtn">&times;</span>
+      <span class="sidenavName">🕒 Timer </span>
+      <form class="minForm">
+        <span>StudyTime</span
+        ><input class="inputStudyTime" type="text" value="25" />min
+        <span>BreakTime</span
+        ><input class="inputBreakTime" type="text" value="5" />min
+        <input type="submit" class="optionTimer" value="" />
+      </form>
+    </div>
+
+    <span class="openbtn">&#9776; option</span>
+  </body>
+  <script type="module" src="JS/TimerApp.js"></script>
+</html>
