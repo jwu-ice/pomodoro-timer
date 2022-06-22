@@ -1,5 +1,5 @@
 ## 사이트주소
-https://jwu-ice.github.io/codesquad-cocoa/Pomodoro_Timer/index.html
+[데모 사이트](https://jwu-ice.github.io/codesquad-cocoa/Pomodoro_Timer/index.html)
 
 
 ---
