@@ -1,14 +1,25 @@
-## 사이트주소
-[데모 사이트](https://jwu-ice.github.io/codesquad-cocoa/Pomodoro_Timer/index.html)
+## 🍊 사이트주소
+[데모 링크](https://jwu-ice.github.io/codesquad-cocoa/Pomodoro_Timer/index.html)
 
+## 🍎 이런 기능이 있어요
+- 타이머 기능을 통해 시간을 관리한다.
+  - 좌측 옵션을 통해 타이머를 조정할 수 있다.
+  - 타이머의 시간은 반복되며 반복 될 때마다 화면바뀜과 소리로 집중시간 / 휴식시간을 표시한다.
+  
+- 투두리스트의 기능을 통해 작업을 관리한다.
+  - 작업 리스트를 적는다.
+  - 마무리 한 작업은 체크를 통해 아래로 내려보낼 수 있다.
+  - 작업을 강조할 수 있다. (타이머페이지 상단에 표시됨)
+  
+- 상단과 하단의 네비게이션바를 통해 쉽게 타이머페이지 / 투두리스트페이지를 오갈 수 있다.
 
 ---
 
-## 만들기 전 스케치
-![](https://images.velog.io/images/wupajw/post/1eaafa7e-d963-4842-b416-07c05643db52/pomodorotimer_proto.jpg)
+## 🍋 만들기 전 스케치
+![스케치사진](https://images.velog.io/images/wupajw/post/1eaafa7e-d963-4842-b416-07c05643db52/pomodorotimer_proto.jpg)
 
 
-## 주제: 뽀모도로 타이머와 todolist
+## 🥭 주제: 뽀모도로 타이머와 todolist
 
 ### 계획
 - 월요일 : 타이머기능 & 뼈대 css
